@@ -48,10 +48,40 @@ const portfolioData = {
     ],
     projects: [
         {
+            id: "chatbot",
+            title: "Personal AI Chatbot",
+            category: "AI & NLP",
+            description: "Developed and deployed a personal AI assistant with dynamic, context-aware conversations, helping users get fast, personalized answers and support in real time.",
+            image: "images/Chatbot.jfif",
+            stack: ["Python", "NLP", "Streamlit", "Deep Learning", "ML"],
+            link: "https://ibrahim-chatbot.streamlit.app/",
+            github: "https://github.com/mohammod2/my_personal_chatbot/blob/main/Chatbot.py"
+        },
+        {
+            id: "business-dashboard",
+            title: "Dashboard (Data Science & MLOps)",
+            category: "Data Science, Analytics & MLOps",
+            description: "Welcome to your smart, simple and powerful business dashboard. Track total sales, daily sales, customer growth and return rates in real time for 7, 14, 30 days or 3 months. The 3‑month view adds expert insights and personalized suggestions from data scientists. See beautiful charts of best‑selling products, trending items, customer locations, high‑performing platforms and efficient customer segments — each with clear, actionable recommendations. Just upload your data and the dashboard does the rest automatically, like having a full data team at your fingertips.",
+            image: "images/Dashboard.jpg",
+            stack: [
+                "Python",
+                "Streamlit",
+                "pandas",
+                "NumPy",
+                "Matplotlib",
+                "Plotly",
+                "Requests",
+                "JSON",
+                "MLOps"
+            ],
+            link: "https://alloftech.streamlit.app/",
+            
+        },
+        {
             id: "real-estate",
             title: "Real Estate Price Prediction & Analysis",
             category: "Machine Learning & MLOps",
-            description: "Built an AI-powered tool for real estate price prediction, data analysis, and apartment recommendations. Achieved 62% to 95% accuracy, enabling data-driven property investment decisions.",
+            description: "Built an AI-powered tool for real estate price prediction, detailed data analysis, and apartment recommendations, achieving up to 95% accuracy for confident, data-driven property investment decisions.",
             image: "images/real-estate.webp",
             stack: ["Python", "Docker", "AWS", "CI/CD", "Streamlit", "Random Forest", "DVC", "GitHub Actions"],
             link: "https://dhaka-real-estate.streamlit.app/",
@@ -66,16 +96,6 @@ const portfolioData = {
             stack: ["TensorFlow", "Scikit-Learn", "NLP", "MLOps", "Pandas", "Logistic Regression", "TF-IDF", "Streamlit", "GitHub Actions"],
             link: "https://sentiment-analysis-system-ibrahim-hossain.streamlit.app/",
             github: "https://github.com/MohammoD2/Sentiment-Analysis-system"
-        },
-        {
-            id: "chatbot",
-            title: "Personal AI Chatbot",
-            category: "AI & NLP",
-            description: "Developed and deployed a chatbot with dynamic, context-aware interactions and a user-friendly interface, focusing on personalized responses and seamless engagement.",
-            image: "images/Chatbot.jfif",
-            stack: ["Python", "NLP", "Streamlit", "Deep Learning", "ML"],
-            link: "https://chatbot-ibrahim.streamlit.app/",
-            github: "https://github.com/mohammod2/my_personal_chatbot/blob/main/Chatbot.py"
         },
         {
             id: "movie-recommender",

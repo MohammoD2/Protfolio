@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
-<head>
+    <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Data Scientist, Machine Learning Engineer & MLOps Engineer. Building and deploying ML models with Python, TensorFlow, PyTorch, and AWS.">
@@ -9,9 +9,10 @@
     <title>Mohammod Ibrahim Hossain | Data Scientist & ML Engineer</title>
     <link rel="icon" type="image/png" href="images/My profressional photos_tab.png">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="chatbot.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400&family=Radio+Canada:wght@400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400&family=Radio+Canada:wght@400&family=Space+Grotesk:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
@@ -317,11 +318,49 @@
             </div>
         </section>
 
-        <!-- Portfolio Button -->
-        <a href="https://mohammod2.github.io/Protfolio/" target="_blank" rel="noopener noreferrer" class="whatsapp-button" aria-label="View Portfolio" style="background: hsl(var(--primary));">
-            <span class="whatsapp-ripple" style="background: hsl(var(--primary));"></span>
-            <i class="fas fa-globe whatsapp-icon"></i>
-        </a>
+        <!-- Chatbot Widget -->
+        <div class="chatbot-container" id="chatbotContainer">
+            <button class="chatbot-button" id="chatbotButton" aria-label="Chat with Ibrahim AI Assistant">
+                <span class="chatbot-pulse"></span>
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path fill="currentColor" d="M12 2C6.48 2 2 5.94 2 10.8c0 2.52 1.3 4.78 3.4 6.3L4 22l4.4-2.4c1.1.3 2.2.5 3.6.5 5.52 0 10-3.94 10-8.8S17.52 2 12 2zm-3 9.5c-.83 0-1.5-.67-1.5-1.5S8.17 8.5 9 8.5s1.5.67 1.5 1.5S9.83 11.5 9 11.5zm6 0c-.83 0-1.5-.67-1.5-1.5S14.17 8.5 15 8.5s1.5.67 1.5 1.5-.67 1.5-1.5 1.5zm-6.1 3.9c.6-1.2 1.9-2 3.1-2s2.5.8 3.1 2l.4.8H8.5l.4-.8z"/>
+                </svg>
+            </button>
+
+            <div class="chatbot-window" id="chatbotWindow">
+                <div class="chatbot-header">
+                    <div class="chatbot-header-content">
+                        <div class="chatbot-avatar">
+                            <img src="images/My profressional photos_tab.png" alt="Ibrahim" class="chatbot-logo">
+                        </div>
+                        <div class="chatbot-header-text">
+                            <h3>Ibrahim AI Assistant</h3>
+                            <p class="chatbot-status" id="chatbotStatus">
+                                Ask anything about my portfolio, projects, or experience.
+                            </p>
+                        </div>
+                    </div>
+                    <button class="chatbot-close" id="chatbotClose" aria-label="Close chatbot">✕</button>
+                </div>
+
+                <div class="chatbot-messages" id="chatbotMessages"></div>
+
+                <!-- Chat Input -->
+                <div class="chatbot-input-container" id="chatbotInputContainer">
+                    <input
+                        type="text"
+                        id="chatbotInput"
+                        class="chatbot-input"
+                        autocomplete="off"
+                    >
+                    <button class="chatbot-send" id="chatbotSend" aria-label="Send message">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path fill="currentColor" d="M2.01 21 23 12 2.01 3 2 10l11 2-11 2z"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
     </main>
 
     <!-- Footer -->
@@ -365,6 +404,7 @@
     </footer>
 
     <script src="script.js"></script>
+    <script src="chatbot.js"></script>
 </body>
 </html>
 
