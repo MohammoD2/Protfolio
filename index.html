@@ -1,273 +1,370 @@
-<!DOCTYPE HTML>
-<!--
-    Massively by HTML5 UP
-    html5up.net | @ajlkn
-    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-    <head>
-        <title>Ibrahim's Portfolio</title>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-        <link rel="stylesheet" href="assets/css/main.css" />
-        <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-        <style>
-            /* Style for the image container */
-            .image-container {
-                width: 100%; /* Make the container take up full width */
-                max-width: 500px; /* Set a maximum width for the container */
-                margin: 0 auto; /* Center the container */
-                overflow: hidden; /* Hide any overflow */
-                display: flex; /* Use flexbox for centering */
-                justify-content: center; /* Center the image horizontally */
-            }
-
-            /* Style for the contained image */
-            .image-container img {
-                width: 100%; /* Make the image take up full width of the container */
-                height: auto; /* Maintain aspect ratio */
-                object-fit: cover; /* Ensure the image covers the container without distortion */
-            }
-        </style>
-    </head>
-    <body class="is-preload">
-
-        <!-- Wrapper -->    
-        <div id="wrapper" class="fade-in">
-
-            <!-- Intro -->
-            <div id="intro" style="background-image: url('A.gif');">
-                <h1>Mohammod Ibrahim Hossain<br />
-                </h1>
-                <p>Greetings, I'm Ibrahim, a dedicated Data Scientist . </a><br />
-                Welcome to my professional portfolio, where innovation meets expertise.</a><br />
-                <a>Explore my journey.  </a></p>
-                <ul class="actions">
-                    <li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
-                </ul>
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Data Scientist, Machine Learning Engineer & MLOps Engineer. Building and deploying ML models with Python, TensorFlow, PyTorch, and AWS.">
+    <meta name="keywords" content="Data Scientist, Machine Learning Engineer, MLOps Engineer, Python, TensorFlow, PyTorch, AWS, Bangladesh, Ibrahim Hossain">
+    <meta name="author" content="Mohammod Ibrahim Hossain">
+    <title>Mohammod Ibrahim Hossain | Data Scientist & ML Engineer</title>
+    <link rel="icon" type="image/png" href="images/My profressional photos_tab.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400&family=Radio+Canada:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="header-container">
+            <div class="header-logo">
+                <a href="/" class="logo-link">
+                    <span class="text-gradient">Ibrahim</span>
+                </a>
             </div>
-
-            <!-- Header -->
-            <header id="header">
-                <a href="index.html" class="logo">...Welcome...</a>
-            </header>
-
-            <!-- Nav -->
-            <nav id="nav">
-                <ul class="links">
-                    <li class="active"><a href="index.html">Home</a></li>
-                    <li><a href="generic.html">My Resume</a></li>
-                    <li><a href="Reference.html">About</a></li>
-                    <li><a href="my.html">Projects</a></li>
-                    <li><a href="achivement.html">Achievement</a></li>
-                </ul>
-                <ul class="icons">
-                    <li><a href="https://twitter.com/MohammodIb51035" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-                    <li><a href="https://www.facebook.com/imibrahimhossain" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-                    <li><a href="https://www.instagram.com/mohammodibrahimhossain" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-                    <li><a href="https://github.com/MohammoD2" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-                    <li><a href="https://www.linkedin.com/in/ibrahim-hossain-554198285/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-                </ul>
+            <nav class="header-nav desktop-nav">
+                <a href="/" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#services" class="nav-link">Services</a>
+                <!-- <a href="#reviews" class="nav-link">Reviews</a> -->
+                <a href="#expertise" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                    <i class="fas fa-moon theme-icon theme-icon-moon"></i>
+                    <i class="fas fa-sun theme-icon theme-icon-sun"></i>
+                </button>
             </nav>
-
-            <!-- Main -->
-            <div id="main">
-
-                <!-- Featured Post -->
-                <article class="post featured">
-                    <header class="major">
-                        <h3><a href="#">Transforming Ideas into Intelligent Solutions</a></h3>
-                        <p>Empowering ideas through the transformative force of data. Crafting intelligent solutions that redefine possibilities.<br /></p>
-                    </header>
-                    <div class="image-container">
-                        <a href="Reference.html" class="image main"><img src="images/My profressional photos.jpg" alt="" /></a>
-                    </div>
-                    <ul class="actions special">
-                        <li><a href="Reference.html" class="button large">Mohammod Ibrahim Hossain</a></li>
-                    </ul>
-                </article>
-
-                <!-- Posts -->
-                <section class="posts">
-                    <article>
-                        <header>
-                            <h2><a href="https://youtu.be/W4LsHP7b4qc?si=jt6TEPdinLpQ2bbB">YouTube Comment Analyzer<br /></a></h2>
-                        </header>
-                        <a href="https://youtu.be/W4LsHP7b4qc?si=jt6TEPdinLpQ2bbB" class="image fit"><img src="images/YouTube_Comment_Analyzer.png" alt="" /></a>
-                        <p>A browser extension for sentiment analysis, word clouds, and top comment insights on any YouTube video.</p>
-                        <ul class="actions special">
-                            <li><a href="https://youtu.be/W4LsHP7b4qc?si=jt6TEPdinLpQ2bbB" class="button">View</a></li>
-                            <li><a href="https://github.com/MohammoD2/Youtube-Comment-Analysis-" class="button">Code</a></li>
-                        </ul>
-                        <ul class="actions special">
-                            
-                        </ul>
-                    </article>
-                    <article>
-                        <header>
-                            <h2><a href="https://dhaka-real-estate.streamlit.app/">Real Estate<br /></a></h2>
-                        </header>
-                        <a href="https://dhaka-real-estate.streamlit.app/" class="image fit"><img src="images/real-estate.webp" alt="" /></a>
-                        <p>This Real Estate project offers <a href="https://dhaka-real-estate.streamlit.app/Analysis_App">advanced analysis</a> and <a href="https://dhaka-real-estate.streamlit.app/Price_Predictor">price predictions</a> for the Bangladesh real estate market,<br>focusing on <a href="https://dhaka-real-estate.streamlit.app/Recommend_Appartments">recommendations</a> to help users make informed investment decisions.</p>
-                        <ul class="actions special">
-                            <li><a href="https://dhaka-real-estate.streamlit.app/" class="button">View</a></li>
-                            <li><a href="https://github.com/MohammoD2/bd_real_estate" class="button">Code</a></li>
-                        </ul>
-                        <ul class="actions special">
-                            
-                        </ul>
-                    </article>
-
-                    <article>
-                        <header>
-                            <h2><a href="https://ibrahim-chatbot.streamlit.app/">Personal
-                            Chatbot🤖</a></h2>
-                        </header>
-                        <a href="https://ibrahim-chatbot.streamlit.app/" class="image fit"><img src="images/Chatbot.jfif" alt="" /></a>
-                        <p>Meet your friendly chatbot!It’s designed for easy, casual conversations,providing quick answers and helpful insights.Whether you’re seeking information or just having a chat,it’s here to make your experience smooth and enjoyable!</p>
-
-                        <ul class="actions special">
-                            <li><a href="https://ibrahim-chatbot.streamlit.app/" class="button">View</a></li>
-                            <li><a href="https://github.com/mohammod2/my_personal_chatbot/blob/main/Chatbot.py" class="button">Code</a></li>
-                        </ul>
-                    </article>
-                    <article>
-                        <header>
-                            <h2><a href="https://uber-demand-prediction-ibrahim.streamlit.app/">Uber Demand Prediction <br /></a></h2>
-                        </header>
-                        <a href="https://uber-demand-prediction-ibrahim.streamlit.app/" class="image fit"><img src="images/Uber.png" alt="" /></a>
-                        <p> Smart predictions, smarter decisions! </p>
-                        <ul class="actions special">
-                            <li><a href="https://uber-demand-prediction-ibrahim.streamlit.app/" class="button">View</a></li>
-                            <li><a href="https://github.com/MohammoD2/Uber_Demand_Pridiction-" class="button">Code</a></li>
-                        </ul>
-                        <ul class="actions special">
-                            
-                        </ul>
-                    </article>
-                    <article>
-                        <header>
-                            <h2><a href="https://sentiment-analysis-system-ibrahim-hossain.streamlit.app/">Sentiment Analysis<br /></a></h2>
-                        </header>
-                        <a href="https://sentiment-analysis-system-ibrahim-hossain.streamlit.app/" class="image fit"><img src="images/Sentiment.jpg" alt="" /></a>
-                        <p> A process of categorizing emotions in text, detecting neutral, positive, negative, or suicidal sentiments. </p>
-                        <ul class="actions special">
-                            <li><a href="https://sentiment-analysis-system-ibrahim-hossain.streamlit.app/" class="button">View</a></li>
-                            <li><a href="https://github.com/MohammoD2/Sentiment-Analysis-system" class="button">Code</a></li>
-                        </ul>
-                        <ul class="actions special">
-                            
-                        </ul>
-                    </article>
-			
-                    <article>
-                        <header>
-                            <h2><a href="https://movie-recommender-system-ibrahim-hossain.streamlit.app/">Movie Recommendation System</a></h2>
-                        </header>
-                        <a href="https://movie-recommender-system-ibrahim-hossain.streamlit.app/" class="image fit">
-                            <img src="images/american-movie-posters-z0puq43u0qbtr6j2.jpg" alt="Movie Recommendation System" />
-                        </a>
-                        <p>A personalized movie recommendation system that suggests films based on user preferences,ratings, and genres.<br>Using data-driven algorithms, it helps users find movies they’re likely to enjoy.</p>
-                        <ul class="actions special">
-                            <li><a href="https://movie-recommender-system-ibrahim-hossain.streamlit.app/" class="button">View</a></li>
-                            <li><a href="https://github.com/MohammoD2/Moive-Recommender-System" class="button">Code</a></li>
-                        </ul>
-                    </article>
-                    <article>
-                        <header>
-                            <h2><a href="https://food-delivery-time-prediction-ibrahim.streamlit.app/">Food Delivery Time Prediction</a></h2>
-                        </header>
-                        <a href="https://ai-assistant-with-command-features.streamlit.app/" class="image fit"><img src="images/food.webp" alt="" /></a>
-                        <p>This project utilizes Machine Learning (ML) for predicting food delivery times by integrating data tracking, DBC (Database Control), and DVC (Data Version Control). With a robust data pipeline and CI/CD setup, it automates model training and deployment, ensuring scalability and accuracy in predicting delivery times.</p>
-                        <ul class="actions special">
-                            <li><a href="https://food-delivery-time-prediction-ibrahim.streamlit.app/" class="button">View</a></li>
-                            <li><a href="https://github.com/MohammoD2/food_delivery_time_prediction.git" class="button">Code</a></li>
-                        </ul>
-                    </article>
-                    <article>
-                        <header>
-                            <h2><a href="https://text-to-speech-ibrahim.streamlit.app/">CBC<br />
-                            Predictor</a></h2>
-                        </header>
-                        <a href="https://text-to-speech-ibrahim.streamlit.app/" class="image fit"><img src="images/ttt.webp" alt="" /></a>
-                        <p>Text-to-Speech (TTS) is a technology that converts written text into spoken words and will make AI voices. It helps people by reading out content, making information accessible and easy to understand.</p>
-                        <ul class="actions special">
-                            <li><a href="https://text-to-speech-ibrahim.streamlit.app/" class="button">View</a></li>
-                            <li><a href="https://github.com/MohammoD2/-Text-to-Speech-App" class="button">Code</a></li>
-                        </ul>
-                    </article>
-                    <article>
-                        <header>
-                            <h2><a href="https://cbc-report-checker-ibrahim-hossain.streamlit.app/">CBC<br />
-                            Predictor</a></h2>
-                        </header>
-                        <a href="https://cbc-report-checker-ibrahim-hossain.streamlit.app/" class="image fit"><img src="images/blood.jpg" alt="" /></a>
-                        <p>Explore your CBC Report effortlessly and gain valuable insights about your health. Check your results now and stay informed for a healthier future!</p>
-                        <ul class="actions special">
-                            <li><a href="https://cbc-report-checker-ibrahim-hossain.streamlit.app/" class="button">View</a></li>
-                            <li><a href="https://github.com/MohammoD2/CBc-" class="button">Code</a></li>
-                        </ul>
-                    </article>
-  
-                </section>
-                			<footer>
-								<div class="pagination">
-									<!--<a href="#" class="previous">Prev</a>-->
-									<a href="index.html" class="page active">1</a>
-									<a href="ami.html" class="page">2</a>
-							</footer>
-
+            <div class="mobile-nav-toggle">
+                <button class="theme-toggle mobile-theme-toggle" id="themeToggleMobile" aria-label="Toggle theme">
+                    <i class="fas fa-moon theme-icon theme-icon-moon"></i>
+                    <i class="fas fa-sun theme-icon theme-icon-sun"></i>
+                </button>
+                <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+                    <span class="menu-icon menu-open">☰</span>
+                    <span class="menu-icon menu-close">✕</span>
+                </button>
             </div>
+        </div>
+        <div class="mobile-menu" id="mobileMenu">
+            <a href="/" class="mobile-nav-link">Home</a>
+            <a href="#about" class="mobile-nav-link">About</a>
+            <a href="#experience" class="mobile-nav-link">Experience</a>
+            <a href="#services" class="mobile-nav-link">Services</a>
+            <!-- <a href="#reviews" class="mobile-nav-link">Reviews</a> -->
+            <a href="#expertise" class="mobile-nav-link">Skills</a>
+            <a href="#projects" class="mobile-nav-link">Projects</a>
+            <a href="#contact" class="mobile-nav-link">Contact</a>
+        </div>
+    </header>
 
-				<!-- Footer -->
-					<footer id="footer">
+    <main class="main-content">
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="hero-background">
+                <div class="marquee-container marquee-1">
+                    <div class="marquee-text">Developer Founder Mentor</div>
+                </div>
+                <div class="marquee-container marquee-2">
+                    <div class="marquee-text">Innovation Code Future</div>
+                </div>
+                <div class="marquee-container marquee-3">
+                    <div class="marquee-text">Fullstack AI Cloud</div>
+                </div>
+            </div>
+            <div class="hero-gradients">
+                <div class="gradient-1"></div>
+                <div class="gradient-2"></div>
+            </div>
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h2 class="hero-subtitle">Greetings, I'm</h2>
+                        <h1 class="hero-title">
+                            <span class="text-gradient">Mohammod Ibrahim Hossain</span>
+                        </h1>
+                        <div class="animated-roles">
+                            <div class="role-text" id="roleText">Machine Learning Engineer</div>
+                        </div>
+                        <div class="about-me-section">
+                            <h3 class="about-me-title">Key Highlights</h3>
+                            <ul class="about-me-list">
+                                <li class="about-me-item">
+                                    <span class="bullet"></span>
+                                    Transforming complex data into actionable insights that drive business growth and innovation.
+                                </li>
+                                <li class="about-me-item">
+                                    <span class="bullet"></span>
+                                    End-to-end ML solutions from concept to deployment, delivering measurable impact across industries.
+                                </li>
+                                <li class="about-me-item">
+                                    <span class="bullet"></span>
+                                    Leading technology innovation as Founder & CEO of AllOfTech, empowering businesses with cutting-edge AI solutions.
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="hero-buttons">
+                            <a href="#projects" class="btn btn-primary">My Projects →</a>
+                            <a href="#contact" class="btn btn-outline">Contact Me</a>
+                        </div>
+                        <div class="hero-social">
+                            <a href="https://github.com/MohammoD2" target="_blank" class="social-link" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/ibrahim-hossain-554198285/" target="_blank" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                            <a href="mailto:mohammod.ibrahim.data@gmail.com" class="social-link" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                            <a href="https://twitter.com/MohammodIb51035" target="_blank" class="social-link" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                    <div class="hero-image">
+                        <div class="hero-image-wrapper">
+                            <img src="images/My profressional photos.png" alt="Mohammod Ibrahim Hossain" class="hero-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-							<section>
-							    <ul class="actions">
-							        <li>
-							            <a href="https://sites.google.com/view/mohammod-ibrahim-data/home" >
-							                <input type="button" value="contacts" />
-							            </a>
-							        </li>
-							    </ul>
-							</section>						
-							<section class="alt">
-								<h3>Address</h3>
-								<p>Dhaka<br />
-								Bangladesh</p>
-							</section>
-							<section>
-								<h3>Phone</h3>
-								<p><a href="#">01301927872</a></p>
-							</section>
-							<section>
-								<h3>Email</h3>
-								<p><a href="mailto:Mohammod.ibrahim.data@gmail.com">mohammod.ibrahim.data@gmail.com</a></p>
-							</section>
-							<section>
-								<h3>Social</h3>
-								<ul class="icons alt">
-									<li><a href="https://twitter.com/MohammodIb51035" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
-									<li><a href="https://www.facebook.com/imibrahimhossain" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
-									<li><a href="https://www.instagram.com/mohammodibrahimhossain" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
-									<li><a href="https://github.com/MohammoD2" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-									<li><a href="https://www.linkedin.com/in/ibrahim-hossain-554198285/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-								</ul>
-							</section>
-						</section>
-					</footer>
+        <!-- Stats Section -->
+        <section class="stats-section">
+            <div class="container">
+                <div class="stats-grid" id="statsGrid">
+                    <!-- Stats will be populated by JavaScript -->
+                </div>
+            </div>
+        </section>
 
+        <!-- About Section -->
+        <section id="about" class="about-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="badge badge-outline">Who I Am</span>
+                    <h2 class="section-title">
+                        Turning <span class="text-gradient">Complex Problems</span> into <br class="hidden-md"> Elegant Solutions
+                    </h2>
+                    <div class="about-content">
+                        <p class="about-text" id="aboutText">
+                            <!-- Bio will be populated by JavaScript -->
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-			</div>
+        <!-- Experience Tree Section -->
+        <section id="experience" class="experience-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="badge badge-outline">Career Path</span>
+                    <h2 class="section-title">Professional Journey</h2>
+                    <button class="btn btn-outline experience-toggle" id="experienceToggle">
+                        <span id="toggleText">View Detailed Experience</span>
+                        <span class="toggle-icon">▼</span>
+                    </button>
+                </div>
+                <div class="experience-tree">
+                    <div class="timeline-line"></div>
+                    <div class="experience-items" id="experienceItems">
+                        <!-- Experience items will be populated by JavaScript -->
+                    </div>
+                </div>
+            </div>
+        </section>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="badge badge-primary">My Portfolio</span>
+                    <h2 class="section-title">Featured Projects</h2>
+                    <p class="section-description">
+                        A collection of machine learning and data science projects demonstrating expertise in ML model development, MLOps, and data analytics.
+                    </p>
+                </div>
+                <div class="projects-grid" id="projectsGrid">
+                    <!-- Projects will be populated by JavaScript -->
+                </div>
+                <div class="projects-load-more" id="loadMoreContainer">
+                    <button class="btn btn-outline" id="loadMoreBtn">Load More Projects</button>
+                </div>
+            </div>
+        </section>
 
-	</body>
+        <!-- Project Modal -->
+        <div class="modal" id="projectModal">
+            <div class="modal-overlay" id="modalOverlay"></div>
+            <div class="modal-content">
+                <button class="modal-close" id="modalClose">✕</button>
+                <div class="modal-body" id="modalBody">
+                    <!-- Modal content will be populated by JavaScript -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Achievements Section -->
+        <section id="achievements" class="achievements-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="badge badge-yellow">Excellence & Learning</span>
+                    <h2 class="section-title">Achievements & Certifications</h2>
+                </div>
+                <div class="achievements-grid">
+                    <div class="achievements-column">
+                        <div class="achievements-header">
+                            <i class="fas fa-trophy achievements-icon"></i>
+                            <h3 class="achievements-title">Awards & Recognition</h3>
+                        </div>
+                        <div class="achievements-list" id="achievementsList">
+                            <!-- Achievements will be populated by JavaScript -->
+                        </div>
+                        <div class="achievements-header" style="margin-top: 3rem;">
+                            <i class="fas fa-graduation-cap achievements-icon"></i>
+                            <h3 class="achievements-title">Education</h3>
+                        </div>
+                        <div class="achievements-list" id="educationList">
+                            <!-- Education will be populated by JavaScript -->
+                        </div>
+                    </div>
+                    <div class="achievements-column">
+                        <div class="achievements-header">
+                            <i class="fas fa-certificate achievements-icon"></i>
+                            <h3 class="achievements-title">Certifications</h3>
+                        </div>
+                        <div class="certifications-list" id="certificationsList">
+                            <!-- Certifications will be populated by JavaScript -->
+                        </div>
+                        <div class="learning-box">
+                            <h4>Always Learning</h4>
+                            <p>"Continuous improvement is better than delayed perfection."</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Timeline Section -->
+        <section id="timeline" class="timeline-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="badge badge-outline">Milestones</span>
+                    <h2 class="section-title">Recent Highlights</h2>
+                </div>
+                <div class="timeline-scroll">
+                    <div class="timeline-items" id="timelineItems">
+                        <!-- Timeline items will be populated by JavaScript -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section id="reviews" class="testimonials-section" style="display: none;">
+            <div class="container">
+                <div class="section-header">
+                    <span class="badge badge-yellow">Client Stories</span>
+                    <h2 class="section-title">Trusted by Global Professionals</h2>
+                </div>
+                <div class="testimonials-container">
+                    <div class="testimonials-scroll" id="testimonialsScroll">
+                        <!-- Testimonials will be populated by JavaScript -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="services-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="badge badge-secondary">What I Offer</span>
+                    <h2 class="section-title">Specialized Services</h2>
+                    <p class="section-description">
+                        Comprehensive technology solutions through AllOfTech - From AI/ML to Blockchain, Web & Mobile Development, UX/UI Design, and Graphics & Branding.
+                    </p>
+                </div>
+                <div class="services-grid" id="servicesGrid">
+                    <!-- Services will be populated by JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <!-- AllOfTech Section -->
+        <section id="alloftech" class="services-section" style="background: linear-gradient(to bottom, hsl(var(--background)), hsl(var(--primary) / 0.05));">
+            <div class="container">
+                <div class="section-header">
+                    <span class="badge badge-primary">My Company</span>
+                    <h2 class="section-title">AllOfTech</h2>
+                    <p class="section-description" id="alloftechDescription">
+                        <!-- Description will be populated by JavaScript -->
+                    </p>
+                </div>
+                <div class="alloftech-content" id="alloftechContent">
+                    <!-- AllOfTech content will be populated by JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Expertise Section -->
+        <section id="expertise" class="expertise-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Tech Arsenal</h2>
+                    <div class="title-underline"></div>
+                </div>
+                <div class="expertise-grid" id="expertiseGrid">
+                    <!-- Expertise will be populated by JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Button -->
+        <a href="https://mohammod2.github.io/Protfolio/" target="_blank" rel="noopener noreferrer" class="whatsapp-button" aria-label="View Portfolio" style="background: hsl(var(--primary));">
+            <span class="whatsapp-ripple" style="background: hsl(var(--primary));"></span>
+            <i class="fas fa-globe whatsapp-icon"></i>
+        </a>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" id="contact">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="/" class="footer-logo">Mohammod Ibrahim Hossain</a>
+                    <p class="footer-description">
+                        Detail-oriented expert in Data Science, Machine Learning, and MLOps. Founder, CEO & Chairman of AllOfTech - delivering cutting-edge technology solutions. Let's transform ideas into impactful digital realities.
+                    </p>
+                    <div class="footer-social">
+                        <a href="https://github.com/MohammoD2" target="_blank" class="footer-social-link" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/ibrahim-hossain-554198285/" target="_blank" class="footer-social-link" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://twitter.com/MohammodIb51035" target="_blank" class="footer-social-link" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.facebook.com/imibrahimhossain" target="_blank" class="footer-social-link" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4 class="footer-title">Explore</h4>
+                    <a href="#about" class="footer-link">About</a>
+                    <a href="#experience" class="footer-link">Experience</a>
+                    <a href="#projects" class="footer-link">Projects</a>
+                    <a href="#services" class="footer-link">Services</a>
+                </div>
+                <div class="footer-contact">
+                    <h4 class="footer-title">Contact</h4>
+                    <a href="mailto:mohammod.ibrahim.data@gmail.com" class="footer-link"><i class="fas fa-envelope"></i> mohammod.ibrahim.data@gmail.com</a>
+                    <p class="footer-text">📞 +88 01301 927872</p>
+                    <p class="footer-text">Dhaka, Bangladesh</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© <span id="currentYear"></span> Mohammod Ibrahim Hossain. All rights reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="#" class="footer-link">Privacy Policy</a>
+                    <a href="#" class="footer-link">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
 </html>
+
