@@ -9,7 +9,7 @@
     const chatbotStatus = document.getElementById('chatbotStatus');
 
     const API_URL = 'https://ibrahim-chatbot-api.vercel.app/chat';
-    let hasShownWelcome = false;
+    const hasShownWelcome = false;
     let isSending = false;
 
     function toggleChatbot() {
